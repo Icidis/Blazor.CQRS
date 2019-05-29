@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F6ADFA2-34B6-44D0-A515-018C8E801597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9F56C9F1-3E68-41E9-A2FA-4688B88E421A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.CQRS.WebUI", "src\Blazor.CQRS.WebUI\Blazor.CQRS.WebUI.csproj", "{B9DE871A-A50E-45E3-863F-9350AF9BE2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9DE871A-A50E-45E3-863F-9350AF9BE2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DE871A-A50E-45E3-863F-9350AF9BE2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DE871A-A50E-45E3-863F-9350AF9BE2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DE871A-A50E-45E3-863F-9350AF9BE2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9DE871A-A50E-45E3-863F-9350AF9BE2AA} = {0F6ADFA2-34B6-44D0-A515-018C8E801597}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E342467-621D-4B1D-A3B1-7EC2AC54866A}
+	EndGlobalSection
+EndGlobal
